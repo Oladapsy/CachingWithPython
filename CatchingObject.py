@@ -47,5 +47,5 @@ class SimpleCache:
         return item["value"]
     
     def evict(self, key):
-        if key in self.store:
-            del self.store[key]
+        if key in self.cache:
+            del self.cache[key]
