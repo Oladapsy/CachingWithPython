@@ -7,7 +7,7 @@
 ### Get: it takes 1 parameter; the key to retreive.
 ##### Evict: it takes 1 parameter; the key to evict from the cache.
 
-## Requirment:
+## Requirement:
 ##### Store data in the cache and retrieve it within the lifetime period, if I try to access a data after its lifetime has expired, it should return null.
 
 
